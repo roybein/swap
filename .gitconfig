@@ -1,0 +1,15 @@
+[user]
+	name = bianrh
+	email = bianrh@marvell.com
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+[color]
+	status = auto
+	branch = auto
+    ui = auto
+[core]
+	whitespace = trailing-space,space-before-tab,indent-with-non-tab
+	edit = vim
