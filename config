@@ -1,0 +1,68 @@
+host *
+ServerAliveInterval 30
+
+host liq
+hostname 139.224.43.57
+user roybein
+
+host stetho
+hostname 80.209.234.116
+user roybein
+
+
+Host 45.63.122.149
+  ProxyCommand=nc -X 5 -x localhost:1080 %h %p
+
+Host 45.32.137.142
+  ProxyCommand=nc -X 5 -x localhost:1080 %h %p
+
+host biloba
+hostname 192.168.1.10
+user roybein
+
+host shanghai
+hostname centos.linkgo
+user roybein
+
+host shanghai-ng
+port 44499
+hostname accrete.org
+
+host beijing-ng
+port 56955 
+hostname accrete.org
+user root
+
+host ginkgo
+hostname 123.57.208.39
+port 2222
+user roybein
+
+host hinkgo
+hostname 120.55.171.196
+port 2222
+user roybein
+
+host bwg
+port 28536
+hostname 104.224.128.131
+user root
+
+host  singapore
+hostname 128.199.232.247
+user roybein
+
+host singapore-ng
+port 38459
+hostname accrete.org
+user roybein
+
+host biloba-ng
+port 40845
+hostname accrete.org
+user roybein
+
+host israel
+hostname server.from-il.com
+port 22
+user brainsense
