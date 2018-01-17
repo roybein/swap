@@ -1,0 +1,15 @@
+// Place your settings in this file to overwrite the default settings
+{
+	"editor.fontSize": 14,
+	"window.zoomLevel": 0,
+	"editor.minimap.enabled": false,
+	"workbench.colorTheme": "Quiet Light",
+	"editor.tabSize": 2,
+	"terminal.integrated.fontSize": 14,
+	"editor.fontFamily": "SauceCodePowerline-Regular",
+	"[javascript]": {},
+	"editor.renderWhitespace": "none",
+	"editor.renderControlCharacters": false,
+	"vim.hlsearch": true,
+	"vim.incsearch": false,
+}
